@@ -13,7 +13,7 @@
 </p>&nbsp;</td></tr></table>
 
 <table align="center"><tr><td align="center" width="9999"><p>
-  <!-- LOGO_START -->
+  <!-- LOGOS_START -->
   <picture><source media="(prefers-color-scheme: dark)" srcset="assets/logos/apple-dark.png"><img src="assets/logos/apple-light.png" align="center" width="64"/></picture>
   <picture><source media="(prefers-color-scheme: dark)" srcset="assets/logos/gradle-dark.png"><img src="assets/logos/gradle-light.png" align="center" width="64"/></picture>
   <picture><source media="(prefers-color-scheme: dark)" srcset="assets/logos/powershell-dark.png"><img src="assets/logos/powershell-light.png" align="center" width="64"/></picture>
