@@ -14,11 +14,10 @@
 
 <table align="center"><tr><td align="center" width="9999"><p>
   <!-- LOGOS_START -->
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/logos/apple-dark.png"><img src="assets/logos/apple-light.png" align="center" width="64"/></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/logos/gradle-dark.png"><img src="assets/logos/gradle-light.png" align="center" width="64"/></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/logos/powershell-dark.png"><img src="assets/logos/powershell-light.png" align="center" width="64"/></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/logos/androidstudio-dark.png"><img src="assets/logos/androidstudio-light.png" align="center" width="64"/></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/logos/steam-dark.png"><img src="assets/logos/steam-light.png" align="center" width="64"/></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/logos/expo-dark.png"><img src="assets/logos/expo-light.png" align="center" width="56"/></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/logos/figma-dark.png"><img src="assets/logos/figma-light.png" align="center" width="56"/></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/logos/mqtt-dark.png"><img src="assets/logos/mqtt-light.png" align="center" width="56"/></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/logos/spring-dark.png"><img src="assets/logos/spring-light.png" align="center" width="56"/></picture>
   <!-- LOGOS_CEASE -->
 </p></td></tr></table>
 
