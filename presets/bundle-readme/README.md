@@ -39,3 +39,12 @@
 #### 5x2 Gapless
 
 <p><img src="../../assets/114x114.png" align="center" width="20%"><img src="../../assets/114x114.png" align="center" width="20%"><img src="../../assets/114x114.png" align="center" width="20%"><img src="../../assets/114x114.png" align="center" width="20%"><img src="../../assets/114x114.png" align="center" width="20%"><img src="../../assets/114x114.png" align="center" width="20%"><img src="../../assets/114x114.png" align="center" width="20%"><img src="../../assets/114x114.png" align="center" width="20%"><img src="../../assets/114x114.png" align="center" width="20%"><img src="../../assets/114x114.png" align="center" width="20%"></p>
+
+#### Logo Banner
+
+<table align="center"><tr></tr><tr><td align="center" width="9999"><p>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="../../assets/logos/horizontal-dark.png"><img src="../../assets/logos/horizontal-light.png" align="center" width="56"/></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="../../assets/logos/circle-dark.png"><img src="../../assets/logos/circle-light.png" align="center" width="56"/></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="../../assets/logos/vertical-dark.png"><img src="../../assets/logos/vertical-light.png" align="center" width="56"/></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="../../assets/logos/square-dark.png"><img src="../../assets/logos/square-light.png" align="center" width="56"/></picture>
+</p></td></tr></table>
