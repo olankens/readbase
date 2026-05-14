@@ -1,0 +1,60 @@
+<div align="center">
+  <p><img src="../../assets/colors/fff394.svg" align="center" width="128"></p>
+  <h1>SPRING</h1>
+</div>
+
+<table><tr><td align="center" width="9999"><p>
+  <a href="https://olankens.com">WEBSITE</a> ·
+  <a href="https://ko-fi.com/olankens">FUNDING</a>
+</p></td></tr></table>
+
+<table><tr><td align="center" width="9999">&nbsp;<p>
+  ...
+</p>&nbsp;</td></tr></table>
+
+<table align="center"><tr><td align="center" width="9999"><p>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="../../assets/logos/java-dark.png"><img src="../../assets/logos/java-light.png" align="center" width="56"/></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="../../assets/logos/intellij-dark.png"><img src="../../assets/logos/intellij-light.png" align="center" width="56"/></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="../../assets/logos/spring-dark.png"><img src="../../assets/logos/spring-light.png" align="center" width="56"/></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="../../assets/logos/gradle-dark.png"><img src="../../assets/logos/gradle-light.png" align="center" width="56"/></picture>
+</p></td></tr></table>
+
+### PREVIEWS
+
+#### ER Diagram
+
+<p><img src="../../assets/1024x416.png" align="center" width="100%"></p>
+
+#### OpenAPI Documentation
+
+<p><img src="../../assets/504x416.png" align="center" width="49.21875%"><picture><img src="../../assets/10x10.gif" align="center" width="1.5625%"/></picture><img src="../../assets/504x416.png" align="center" width="49.21875%"></p>
+
+### FEATURES
+
+#### Authentication Service
+
+<table>
+  <tbody><tr><td width="9999">Proin volutpat arcu sed molestie</td><td align="center">✅</td></tr></tbody>
+  <tbody><tr><td>Morbi feugiat nisi nulla accumsan</td><td align="center">✅</td></tr></tbody>
+  <tbody><tr><td>Maecenas nisi in vehicula tincidunt</td><td align="center">✅</td></tr></tbody>
+  <tbody><tr><td>Duis gravida velit ut egestas sagittis</td><td align="center">✅</td></tr></tbody>
+  <tbody><tr><td>Morbi porta tortor at feugiat tempor</td><td align="center">✅</td></tr></tbody>
+</table>
+
+#### Notification Service
+
+<table>
+  <tbody><tr><td width="9999">Proin volutpat arcu sed molestie</td><td align="center">✅</td></tr></tbody>
+  <tbody><tr><td>Morbi feugiat nisi nulla accumsan</td><td align="center">✅</td></tr></tbody>
+  <tbody><tr><td>Maecenas nisi in vehicula tincidunt</td><td align="center">✅</td></tr></tbody>
+  <tbody><tr><td>Duis gravida velit ut egestas sagittis</td><td align="center">✅</td></tr></tbody>
+  <tbody><tr><td>Morbi porta tortor at feugiat tempor</td><td align="center">🚧</td></tr></tbody>
+</table>
+
+### LEARNING
+
+#### Debugging with IntelliJ IDEA
+
+```sh
+idea .
+```

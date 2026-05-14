@@ -1,0 +1,116 @@
+name: "OP: Update Presets"
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'presets/**/README.md'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+      - name: Cache Playwright browsers
+        id: cache-playwright
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: ${{ runner.os }}-playwright-${{ hashFiles('package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-playwright-
+      - name: Install Playwright
+        run: |
+          npm install playwright
+          # npx playwright install chromium --with-deps
+          npx playwright install chromium
+      - name: Generate screenshots and update README
+        run: |
+          node <<'EOF'
+            const fs = require('fs');
+            const path = require('path');
+            const { chromium } = require('playwright');
+          
+            const PRESETS_DIR = './presets';
+            const ASSETS_DIR = './assets';
+            const ROOT_README = './README.md';
+            const START = '<!-- PRESETS_START -->';
+            const END = '<!-- PRESETS_CEASE -->';
+          
+            async function getPresets() {
+              const items = fs.readdirSync(PRESETS_DIR, { withFileTypes: true });
+              const presets = [];
+              for (const item of items) {
+                if (item.isDirectory()) {
+                  const readme = path.join(PRESETS_DIR, item.name, 'README.md');
+                  if (fs.existsSync(readme)) presets.push(item.name);
+                }
+              }
+              return presets;
+            }
+          
+            async function main() {
+              const presets = await getPresets();
+              if (!presets.length) return console.log('No READMEs found.');
+          
+              const browser = await chromium.launch({ headless: true });
+              const page = await browser.newPage();
+              await page.setViewportSize({ width: 384 * 1.25, height: 832 * 1.25 });
+          
+              for (const name of presets) {
+                const url = `https://github.com/olankens/readbase/blob/main/presets/${name}`;
+                console.log(`Capturing ${name}...`);
+                await page.goto(url);
+                await page.waitForLoadState('domcontentloaded');
+                await page.evaluate(() => {
+                  const div = document.querySelector('#readme');
+                  if (div) div.scrollIntoView({ block: 'start', behavior: 'instant' });
+                });
+                await page.waitForTimeout(500);
+                await page.screenshot({ path: path.join(ASSETS_DIR, `${name}-light.png`) });
+                await page.emulateMedia({ colorScheme: 'dark' });
+                await page.waitForTimeout(500);
+                await page.screenshot({ path: path.join(ASSETS_DIR, `${name}-dark.png`) });
+                await page.emulateMedia({ colorScheme: 'light' });
+              }
+              await browser.close();
+          
+              const paras = [];
+              for (let i = 0; i < presets.length; i += 5) {
+                const row = presets.slice(i, i + 5);
+                const parts = row.map((name, j) => {
+                  const img = `<a href="presets/${name}"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/${name}-light.png"><img src="assets/${name}-dark.png" align="center" width="18.75%"></picture></a>`;
+                  const spacer = `<picture><img src="assets/10x10.gif" align=center width="1.5625%"></picture>`;
+                  return j < row.length - 1 ? img + spacer : img;
+                }).join('');
+                paras.push(`<p>${parts}</p>`);
+              }
+              const table = paras.join('\n');
+          
+              let readme = fs.readFileSync(ROOT_README, 'utf8');
+              const newSection = `${START}\n${table}\n${END}`;
+              if (readme.includes(START) && readme.includes(END)) {
+                readme = readme.replace(new RegExp(`${START}[\\s\\S]*?${END}`), newSection);
+              } else {
+                readme = readme.trimEnd() + `\n\n${newSection}\n`;
+              }
+              fs.writeFileSync(ROOT_README, readme);
+              console.log('README updated.');
+            }
+          
+            main().catch(err => { console.error(err); process.exit(1); });
+          EOF
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/*.png README.md
+          git diff --staged --quiet || git commit -m "chore: update the presets"
+          git push

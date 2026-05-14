@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "@commitlint/cli": "^20",
+    "@commitlint/config-conventional": "^20",
+    "simple-git-hooks": "^2"
+  },
+  "scripts": {
+    "prepare": "npx simple-git-hooks"
+  },
+  "simple-git-hooks": {
+    "commit-msg": "npx --no -- commitlint --edit"
+  }
+}
