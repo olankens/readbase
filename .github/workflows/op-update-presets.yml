@@ -39,7 +39,7 @@ jobs:
             const { chromium } = require('playwright');
           
             const PRESETS_DIR = './presets';
-            const ASSETS_DIR = './assets';
+            const ASSETS_DIR = './assets/presets';
             const ROOT_README = './README.md';
             const START = '<!-- PRESETS_START -->';
             const END = '<!-- PRESETS_CEASE -->';
@@ -86,7 +86,7 @@ jobs:
               for (let i = 0; i < presets.length; i += 5) {
                 const row = presets.slice(i, i + 5);
                 const parts = row.map((name, j) => {
-                  const img = `<a href="presets/${name}"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/${name}-light.png"><img src="assets/${name}-dark.png" align="center" width="18.75%"></picture></a>`;
+                  const img = `<a href="presets/${name}"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/presets/${name}-light.png"><img src="assets/presets/${name}-dark.png" align="center" width="18.75%"></picture></a>`;
                   const spacer = `<picture><img src="assets/10x10.gif" align=center width="1.5625%"></picture>`;
                   return j < row.length - 1 ? img + spacer : img;
                 }).join('');
