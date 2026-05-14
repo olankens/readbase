@@ -1,6 +1,6 @@
 <div align="center">
-  <p><img src="../../assets/102380.jpg" align="center" width="128"></p>
-  <h1>CHAIN-BURN</h1>
+  <p><img src="../../assets/30397786.jpg" align="center" width="128"></p>
+  <h1>BLUE-EYES</h1>
 </div>
 
 <table><tr><td align="center" width="9999">&nbsp;<p>

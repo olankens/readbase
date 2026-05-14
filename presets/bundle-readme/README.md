@@ -5,7 +5,7 @@
 
 <table><tr><td align="center" width="9999"><p>
   <a href="https://olankens.com">WEBSITE</a> ·
-  <a href="https://ko-fi.com/olankens">SPONSOR</a>
+  <a href="https://ko-fi.com/olankens">FUNDING</a>
 </p></td></tr></table>
 
 <table><tr><td align="center" width="9999">&nbsp;<p>
