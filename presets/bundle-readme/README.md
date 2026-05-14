@@ -5,7 +5,7 @@
 
 <table><tr><td align="center" width="9999"><p>
   <a href="https://olankens.com">WEBSITE</a> ·
-  <a href="https://ko-fi.com/olankens">FUNDING</a>
+  <a href="https://ko-fi.com/olankens">SPONSOR</a>
 </p></td></tr></table>
 
 <table><tr><td align="center" width="9999">&nbsp;<p>
@@ -31,9 +31,11 @@
 
 <p><img src="../../assets/192x416.png" align="center" width="18.75%"><picture><img src="../../assets/10x10.gif" align=center width="1.5625%"></picture><img src="../../assets/192x416.png" align="center" width="18.75%"><picture><img src="../../assets/10x10.gif" align=center width="1.5625%"></picture><img src="../../assets/192x416.png" align="center" width="18.75%"><picture><img src="../../assets/10x10.gif" align=center width="1.5625%"></picture><img src="../../assets/192x416.png" align="center" width="18.75%"><picture><img src="../../assets/10x10.gif" align=center width="1.5625%"></picture><img src="../../assets/192x416.png" align="center" width="18.75%"></p>
 
-#### 5x3 Gallery
+#### 5x2 Gallery
 
 <p><img src="../../assets/114x114.png" align="center" width="18.75%"><picture><img src="../../assets/10x10.gif" align=center width="1.5625%"></picture><img src="../../assets/114x114.png" align="center" width="18.75%"><picture><img src="../../assets/10x10.gif" align=center width="1.5625%"></picture><img src="../../assets/114x114.png" align="center" width="18.75%"><picture><img src="../../assets/10x10.gif" align=center width="1.5625%"></picture><img src="../../assets/114x114.png" align="center" width="18.75%"><picture><img src="../../assets/10x10.gif" align=center width="1.5625%"></picture><img src="../../assets/114x114.png" align="center" width="18.75%"></p>
 <p><img src="../../assets/114x114.png" align="center" width="18.75%"><picture><img src="../../assets/10x10.gif" align=center width="1.5625%"></picture><img src="../../assets/114x114.png" align="center" width="18.75%"><picture><img src="../../assets/10x10.gif" align=center width="1.5625%"></picture><img src="../../assets/114x114.png" align="center" width="18.75%"><picture><img src="../../assets/10x10.gif" align=center width="1.5625%"></picture><img src="../../assets/114x114.png" align="center" width="18.75%"><picture><img src="../../assets/10x10.gif" align=center width="1.5625%"></picture><img src="../../assets/114x114.png" align="center" width="18.75%"></p>
-<p><img src="../../assets/114x114.png" align="center" width="18.75%"><picture><img src="../../assets/10x10.gif" align=center width="1.5625%"></picture><img src="../../assets/114x114.png" align="center" width="18.75%"><picture><img src="../../assets/10x10.gif" align=center width="1.5625%"></picture><img src="../../assets/114x114.png" align="center" width="18.75%"><picture><img src="../../assets/10x10.gif" align=center width="1.5625%"></picture><img src="../../assets/114x114.png" align="center" width="18.75%"><picture><img src="../../assets/10x10.gif" align=center width="1.5625%"></picture><img src="../../assets/114x114.png" align="center" width="18.75%"></p>
 
+#### 5x2 Gapless
+
+<p><img src="../../assets/114x114.png" align="center" width="20%"><img src="../../assets/114x114.png" align="center" width="20%"><img src="../../assets/114x114.png" align="center" width="20%"><img src="../../assets/114x114.png" align="center" width="20%"><img src="../../assets/114x114.png" align="center" width="20%"><img src="../../assets/114x114.png" align="center" width="20%"><img src="../../assets/114x114.png" align="center" width="20%"><img src="../../assets/114x114.png" align="center" width="20%"><img src="../../assets/114x114.png" align="center" width="20%"><img src="../../assets/114x114.png" align="center" width="20%"></p>
