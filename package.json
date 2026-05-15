@@ -9,5 +9,8 @@
   },
   "simple-git-hooks": {
     "commit-msg": "npx --no -- commitlint --edit"
+  },
+  "dependencies": {
+    "playwright": "^1.60.0"
   }
 }
