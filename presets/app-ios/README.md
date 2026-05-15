@@ -30,6 +30,8 @@
   <tbody><tr><td width="9999">Proin volutpat arcu sed molestie</td><td align="center">✅</td></tr></tbody>
   <tbody><tr><td>Morbi feugiat nisi nulla accumsan</td><td align="center">✅</td></tr></tbody>
   <tbody><tr><td>Maecenas nisi in vehicula tincidunt</td><td align="center">✅</td></tr></tbody>
+  <tbody><tr><td>Duis gravida velit ut egestas sagittis</td><td align="center">✅</td></tr></tbody>
+  <tbody><tr><td>Morbi porta tortor at feugiat tempor</td><td align="center">✅</td></tr></tbody>
 </table>
 
 ### RELEASES
