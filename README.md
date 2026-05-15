@@ -14,10 +14,10 @@
 
 <table align="center"><tr><td align="center" width="9999"><p>
   <!-- LOGOS_START -->
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/logos/expo-dark.png"><img src="assets/logos/expo-light.png" align="center" width="52"></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/logos/figma-dark.png"><img src="assets/logos/figma-light.png" align="center" width="52"></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/logos/mqtt-dark.png"><img src="assets/logos/mqtt-light.png" align="center" width="52"></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/logos/spring-dark.png"><img src="assets/logos/spring-light.png" align="center" width="52"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/logos/github-dark.png"><img src="assets/logos/github-light.png" align="center" width="56"/></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/logos/kafka-dark.png"><img src="assets/logos/kafka-light.png" align="center" width="56"/></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/logos/bash-dark.png"><img src="assets/logos/bash-light.png" align="center" width="56"/></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/logos/jetpackcompose-dark.png"><img src="assets/logos/jetpackcompose-light.png" align="center" width="56"/></picture>
   <!-- LOGOS_CEASE -->
 </p></td></tr></table>
 
