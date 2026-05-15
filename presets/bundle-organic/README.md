@@ -26,8 +26,8 @@
 
 <table>
   <tbody><tr>
-    <td align="center" width="9999"><img src="../../assets/1280x720.png" align="center" width="100%"></td>
-    <td align="center" width="9999"><img src="../../assets/1280x720.png" align="center" width="100%"></td>
+    <td width="9999"><img src="../../assets/1280x720.png" align="center" width="100%"></td>
+    <td width="9999"><img src="../../assets/1280x720.png" align="center" width="100%"></td>
   </tr></tbody>
 </table>
 
@@ -35,10 +35,10 @@
 
 <table>
   <tbody><tr>
-    <td align="center" width="9999"><img src="../../assets/192x416.png" align="center" width="100%"></td>
-    <td align="center" width="9999"><img src="../../assets/192x416.png" align="center" width="100%"></td>
-    <td align="center" width="9999"><img src="../../assets/192x416.png" align="center" width="100%"></td>
-    <td align="center" width="9999"><img src="../../assets/192x416.png" align="center" width="100%"></td>
+    <td width="9999"><img src="../../assets/192x416.png" align="center" width="100%"></td>
+    <td width="9999"><img src="../../assets/192x416.png" align="center" width="100%"></td>
+    <td width="9999"><img src="../../assets/192x416.png" align="center" width="100%"></td>
+    <td width="9999"><img src="../../assets/192x416.png" align="center" width="100%"></td>
   </tr></tbody>
 </table>
 
@@ -46,13 +46,25 @@
 
 <table>
   <tbody><tr>
-    <td align="center" width="9999"><img src="../../assets/stores/github.svg" align="center" width="100%"></td>
-    <td align="center" width="9999"><img src="../../assets/stores/appstore.svg" align="center" width="100%"></td>
-    <td align="center" width="9999"><img src="../../assets/stores/altstore.svg" align="center" width="100%"></td>
+    <td width="9999"><img src="../../assets/stores/github.svg" align="center" width="100%"></td>
+    <td width="9999"><img src="../../assets/stores/appstore.svg" align="center" width="100%"></td>
+    <td width="9999"><img src="../../assets/stores/altstore.svg" align="center" width="100%"></td>
   </tr></tbody>
     <tbody><tr>
-    <td align="center" width="9999"><img src="../../assets/stores/googleplay.svg" align="center" width="100%"></td>
-    <td align="center" width="9999"><img src="../../assets/stores/fdroid.svg" align="center" width="100%"></td>
-    <td align="center" width="9999"><img src="../../assets/stores/izzyondroid.svg" align="center" width="100%"></td>
+    <td><img src="../../assets/stores/googleplay.svg" align="center" width="100%"></td>
+    <td><img src="../../assets/stores/fdroid.svg" align="center" width="100%"></td>
+    <td><img src="../../assets/stores/izzyondroid.svg" align="center" width="100%"></td>
   </tr></tbody>
 </table>
+
+### Debug Android Project
+
+```sh
+studio apps/android
+```
+
+### Debug iOS Project
+
+```sh
+xed apps/ios
+```
