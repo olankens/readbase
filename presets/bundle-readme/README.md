@@ -40,7 +40,7 @@
 
 <p><img src="../../assets/114x114.png" align="center" width="20%"><img src="../../assets/114x114.png" align="center" width="20%"><img src="../../assets/114x114.png" align="center" width="20%"><img src="../../assets/114x114.png" align="center" width="20%"><img src="../../assets/114x114.png" align="center" width="20%"><img src="../../assets/114x114.png" align="center" width="20%"><img src="../../assets/114x114.png" align="center" width="20%"><img src="../../assets/114x114.png" align="center" width="20%"><img src="../../assets/114x114.png" align="center" width="20%"><img src="../../assets/114x114.png" align="center" width="20%"></p>
 
-#### Logo Banner
+#### Logo Banner (1)
 
 <table align="center"><tr><td align="center" width="9999"><p>
   <picture><source media="(prefers-color-scheme: dark)" srcset="../../assets/logos/horizontal-dark.png"><img src="../../assets/logos/horizontal-light.png" align="center" width="56"/></picture>
@@ -50,7 +50,7 @@
   <picture><source media="(prefers-color-scheme: dark)" srcset="../../assets/logos/horizontal-dark.png"><img src="../../assets/logos/horizontal-light.png" align="center" width="56"/></picture>
 </p></td></tr></table>
 
-#### Logo Banner Alternative
+#### Logo Banner (2)
 
 <table align="center"><tr></tr><tr><td align="center" width="9999"><p>
   <picture><source media="(prefers-color-scheme: dark)" srcset="../../assets/logos/horizontal-dark.png"><img src="../../assets/logos/horizontal-light.png" align="center" width="56"/></picture>
@@ -59,3 +59,25 @@
   <picture><source media="(prefers-color-scheme: dark)" srcset="../../assets/logos/square-dark.png"><img src="../../assets/logos/square-light.png" align="center" width="56"/></picture>
   <picture><source media="(prefers-color-scheme: dark)" srcset="../../assets/logos/horizontal-dark.png"><img src="../../assets/logos/horizontal-light.png" align="center" width="56"/></picture>
 </p></td></tr></table>
+
+#### Heading Example (1)
+
+<table>
+  <tbody><tr>
+    <td align="center" colspan="4" width="9999">&nbsp;<p>
+      ...
+    </p>&nbsp;</td>
+  </tr></tbody>
+  <tbody><tr>
+    <td align="center"><img src="../../assets/114x114.png" align="center" width="56"></td>
+    <td align="center"><img src="../../assets/114x114.png" align="center" width="56"></td>
+    <td align="center"><img src="../../assets/114x114.png" align="center" width="56"></td>
+    <td align="center"><img src="../../assets/114x114.png" align="center" width="56"></td>
+  </tr></tbody>
+</table>
+
+#### Feature Section #1
+
+<img src="../../assets/192x416.png" align="right" width="18.75%"><picture><img src="../../assets/10x10.gif" align="right" width="1.5625%"></picture><img src="../../assets/192x416.png" align="right" width="18.75%">
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur malesuada mauris neque, sit amet sagittis leo pellentesque vel. Pellentesque vel rutrum turpis, sit amet hendrerit neque. Pellentesque condimentum pulvinar iaculis. Maecenas vitae tellus diam. Vivamus eu elit sed sem ultricies elementum. Suspendisse sollicitudin libero massa, vitae convallis neque ultrices molestie. Praesent rhoncus turpis ac tortor varius faucibus eu et nisi. Quisque vel pellentesque mi. Aenean lobortis accumsan ligula eget posuere. Integer eleifend augue sed cursus semper. Donec ut sapien vitae leo commodo viverra. Aliquam vitae erat vitae eros laoreet ultrices. Fusce nec ornare nulla, nec tempus nulla.
