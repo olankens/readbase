@@ -12,13 +12,10 @@
   ...
 </p>&nbsp;</td></tr></table>
 
-[//]: # (<table align="center"><tr><td align="center" width="9999"><p>)
-
-[//]: # (  <picture><source media="&#40;prefers-color-scheme: dark&#41;" srcset="../../assets/logos/markdown-dark.png"><img src="../../assets/logos/markdown-light.png" align="center" width="56"/></picture>)
-
-[//]: # (  <picture><source media="&#40;prefers-color-scheme: dark&#41;" srcset="../../assets/logos/figma-dark.png"><img src="../../assets/logos/figma-light.png" align="center" width="56"/></picture>)
-
-[//]: # (</p></td></tr></table>)
+<table align="center"><tr><td align="center" width="9999"><p>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="../../assets/logos/markdown-dark.png"><img src="../../assets/logos/markdown-light.png" align="center" width="52"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="../../assets/logos/figma-dark.png"><img src="../../assets/logos/figma-light.png" align="center" width="52"></picture>
+</p></td></tr></table>
 
 ### PREVIEWS
 

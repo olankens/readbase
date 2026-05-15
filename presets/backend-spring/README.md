@@ -12,17 +12,12 @@
   ...
 </p>&nbsp;</td></tr></table>
 
-[//]: # (<table align="center"><tr><td align="center" width="9999"><p>)
-
-[//]: # (  <picture><source media="&#40;prefers-color-scheme: dark&#41;" srcset="../../assets/logos/java-dark.png"><img src="../../assets/logos/java-light.png" align="center" width="56"/></picture>)
-
-[//]: # (  <picture><source media="&#40;prefers-color-scheme: dark&#41;" srcset="../../assets/logos/intellij-dark.png"><img src="../../assets/logos/intellij-light.png" align="center" width="56"/></picture>)
-
-[//]: # (  <picture><source media="&#40;prefers-color-scheme: dark&#41;" srcset="../../assets/logos/spring-dark.png"><img src="../../assets/logos/spring-light.png" align="center" width="56"/></picture>)
-
-[//]: # (  <picture><source media="&#40;prefers-color-scheme: dark&#41;" srcset="../../assets/logos/gradle-dark.png"><img src="../../assets/logos/gradle-light.png" align="center" width="56"/></picture>)
-
-[//]: # (</p></td></tr></table>)
+<table align="center"><tr><td align="center" width="9999"><p>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="../../assets/logos/java-dark.png"><img src="../../assets/logos/java-light.png" align="center" width="52"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="../../assets/logos/intellij-dark.png"><img src="../../assets/logos/intellij-light.png" align="center" width="52"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="../../assets/logos/spring-dark.png"><img src="../../assets/logos/spring-light.png" align="center" width="52"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="../../assets/logos/gradle-dark.png"><img src="../../assets/logos/gradle-light.png" align="center" width="52"></picture>
+</p></td></tr></table>
 
 ### PREVIEWS
 

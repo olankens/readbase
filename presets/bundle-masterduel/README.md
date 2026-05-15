@@ -12,11 +12,9 @@
   ...
 </p>&nbsp;</td></tr></table>
 
-[//]: # (<table align="center"><tr><td align="center" width="9999"><p>)
-
-[//]: # (  <picture><source media="&#40;prefers-color-scheme: dark&#41;" srcset="../../assets/logos/steam-dark.png"><img src="../../assets/logos/steam-light.png" align="center" width="56"/></picture>)
-
-[//]: # (</p></td></tr></table>)
+<table align="center"><tr><td align="center" width="9999"><p>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="../../assets/logos/steam-dark.png"><img src="../../assets/logos/steam-light.png" align="center" width="56"></picture>
+</p></td></tr></table>
 
 ### PREVIEWS
 

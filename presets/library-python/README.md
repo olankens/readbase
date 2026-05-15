@@ -13,15 +13,11 @@
   ...
 </p>&nbsp;</td></tr></table>
 
-[//]: # (<table align="center"><tr><td align="center" width="9999"><p>)
-
-[//]: # (  <picture><source media="&#40;prefers-color-scheme: dark&#41;" srcset="../../assets/logos/mqtt-dark.png"><img src="../../assets/logos/mqtt-light.png" align="center" width="56"/></picture>)
-
-[//]: # (  <picture><source media="&#40;prefers-color-scheme: dark&#41;" srcset="../../assets/logos/python-dark.png"><img src="../../assets/logos/python-light.png" align="center" width="56"/></picture>)
-
-[//]: # (  <picture><source media="&#40;prefers-color-scheme: dark&#41;" srcset="../../assets/logos/pycharm-dark.png"><img src="../../assets/logos/pycharm-light.png" align="center" width="56"/></picture>)
-
-[//]: # (</p></td></tr></table>)
+<table align="center"><tr><td align="center" width="9999"><p>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="../../assets/logos/mqtt-dark.png"><img src="../../assets/logos/mqtt-light.png" align="center" width="52"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="../../assets/logos/python-dark.png"><img src="../../assets/logos/python-light.png" align="center" width="52"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="../../assets/logos/pycharm-dark.png"><img src="../../assets/logos/pycharm-light.png" align="center" width="52"></picture>
+</p></td></tr></table>
 
 ### MATRICES
 
