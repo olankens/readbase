@@ -38,37 +38,22 @@
   </tr></tbody>
 </table>
 
+### PREVIEWS
+
+<p><img src="../../assets/504x416.png" align="center" width="49.21875%"><picture><img src="../../assets/10x10.gif" align="center" width="1.5625%"/></picture><img src="../../assets/504x416.png" align="center" width="49.21875%"></p>
+
 ### FEATURES
 
-#### Embrace Full Automation
-
-<p><img src="../../assets/504x416.png" align="center" width="49.21875%"><picture><img src="../../assets/10x10.gif" align="center" width="1.5625%"/></picture><img src="../../assets/504x416.png" align="center" width="49.21875%"></p>
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel molestie mauris. Mauris facilisis pellentesque tincidunt. Sed finibus nulla eu elit maximus euismod.
-
-#### Never Been Outdated
-
-<p><img src="../../assets/504x416.png" align="center" width="49.21875%"><picture><img src="../../assets/10x10.gif" align="center" width="1.5625%"/></picture><img src="../../assets/504x416.png" align="center" width="49.21875%"></p>
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel molestie mauris. Mauris facilisis pellentesque tincidunt. Sed finibus nulla eu elit maximus euismod.
-
-#### Nothing Left Unoptimized
-
-<p><img src="../../assets/504x416.png" align="center" width="49.21875%"><picture><img src="../../assets/10x10.gif" align="center" width="1.5625%"/></picture><img src="../../assets/504x416.png" align="center" width="49.21875%"></p>
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel molestie mauris. Mauris facilisis pellentesque tincidunt. Sed finibus nulla eu elit maximus euismod.
-
-#### Ungoogled Chromium Perfected
-
-<p><img src="../../assets/504x416.png" align="center" width="49.21875%"><picture><img src="../../assets/10x10.gif" align="center" width="1.5625%"/></picture><img src="../../assets/504x416.png" align="center" width="49.21875%"></p>
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel molestie mauris. Mauris facilisis pellentesque tincidunt. Sed finibus nulla eu elit maximus euismod.
-
-#### Idempotency Driven Design
-
-<p><img src="../../assets/504x416.png" align="center" width="49.21875%"><picture><img src="../../assets/10x10.gif" align="center" width="1.5625%"/></picture><img src="../../assets/504x416.png" align="center" width="49.21875%"></p>
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel molestie mauris. Mauris facilisis pellentesque tincidunt. Sed finibus nulla eu elit maximus euismod.
+<table>
+  <tbody><tr><td width="9999">Proin volutpat arcu sed molestie</td><td align="center">✅</td></tr></tbody>
+  <tbody><tr><td>Morbi feugiat nisi nulla accumsan</td><td align="center">✅</td></tr></tbody>
+  <tbody><tr><td>Maecenas nisi in vehicula tincidunt</td><td align="center">✅</td></tr></tbody>
+  <tbody><tr><td>Duis gravida velit ut egestas sagittis</td><td align="center">✅</td></tr></tbody>
+  <tbody><tr><td>Morbi porta tortor at feugiat tempor</td><td align="center">✅</td></tr></tbody>
+  <tbody><tr><td>Aliquam erat volutpat sed viverra</td><td align="center">✅</td></tr></tbody>
+  <tbody><tr><td>Vestibulum ante primis in faucibus</td><td align="center">✅</td></tr></tbody>
+  <tbody><tr><td>Curabitur lacinia at lacus tempor</td><td align="center">✅</td></tr></tbody>
+</table>
 
 ### LEARNING
 
