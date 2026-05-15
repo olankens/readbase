@@ -12,7 +12,7 @@
   ...
 </p>&nbsp;</td></tr></table>
 
-<table align="center" width="100%"><tr><td align="center" width="9999"><p>
+<table align="center"><tr><td align="center" width="9999"><p>
   <picture><source media="(prefers-color-scheme: dark)" srcset="../../assets/logos/steam-dark.png"><img src="../../assets/logos/steam-light.png" align="center" width="56"/></picture>
 </p></td></tr></table>
 
@@ -24,35 +24,41 @@
     <td align="center" width="9999"><a href="unstoppable.md"><img src="../../assets/83257450.jpg" align="center" width="100%"></a></td>
     <td align="center" width="9999"><a href="blue-eyes.md"><img src="../../assets/30397786.jpg" align="center" width="100%"></a></td>
     <td align="center" width="9999"><a href=""><img src="../../assets/114x114.png" align="center" width="100%"></a></td>
-  </tr></tbody>
-  <tbody><tr>
-    <td align="center" width="9999">🟢</td>
-    <td align="center" width="9999">🟢</td>
-    <td align="center" width="9999">🟡</td>
-    <td align="center" width="9999">⚪️</td>
-  </tr></tbody>
-  <tbody><tr>
-    <td align="center" width="9999"><a href=""><img src="../../assets/114x114.png" align="center" width="100%"></a></td>
-    <td align="center" width="9999"><a href=""><img src="../../assets/114x114.png" align="center" width="100%"></a></td>
-    <td align="center" width="9999"><a href=""><img src="../../assets/114x114.png" align="center" width="100%"></a></td>
     <td align="center" width="9999"><a href=""><img src="../../assets/114x114.png" align="center" width="100%"></a></td>
   </tr></tbody>
   <tbody><tr>
-    <td align="center" width="9999">⚪️</td>
-    <td align="center" width="9999">⚪️</td>
-    <td align="center" width="9999">⚪️</td>
-    <td align="center" width="9999">⚪️</td>
+    <td align="center">🟢</td>
+    <td align="center">🟢</td>
+    <td align="center">🟡</td>
+    <td align="center">⚪️</td>
+    <td align="center">⚪️</td>
   </tr></tbody>
   <tbody><tr>
-    <td align="center" width="9999"><a href=""><img src="../../assets/114x114.png" align="center" width="100%"></a></td>
-    <td align="center" width="9999"><a href=""><img src="../../assets/114x114.png" align="center" width="100%"></a></td>
-    <td align="center" width="9999"><a href=""><img src="../../assets/114x114.png" align="center" width="100%"></a></td>
-    <td align="center" width="9999"><a href=""><img src="../../assets/114x114.png" align="center" width="100%"></a></td>
+    <td align="center"><a href=""><img src="../../assets/114x114.png" align="center" width="100%"></a></td>
+    <td align="center"><a href=""><img src="../../assets/114x114.png" align="center" width="100%"></a></td>
+    <td align="center"><a href=""><img src="../../assets/114x114.png" align="center" width="100%"></a></td>
+    <td align="center"><a href=""><img src="../../assets/114x114.png" align="center" width="100%"></a></td>
+    <td align="center"><a href=""><img src="../../assets/114x114.png" align="center" width="100%"></a></td>
   </tr></tbody>
   <tbody><tr>
-    <td align="center" width="9999">⚪️</td>
-    <td align="center" width="9999">⚪️</td>
-    <td align="center" width="9999">⚪️</td>
-    <td align="center" width="9999">⚪️</td>
+    <td align="center">⚪️</td>
+    <td align="center">⚪️</td>
+    <td align="center">⚪️</td>
+    <td align="center">⚪️</td>
+    <td align="center">⚪️</td>
+  </tr></tbody>
+  <tbody><tr>
+    <td align="center"><a href=""><img src="../../assets/114x114.png" align="center" width="100%"></a></td>
+    <td align="center"><a href=""><img src="../../assets/114x114.png" align="center" width="100%"></a></td>
+    <td align="center"><a href=""><img src="../../assets/114x114.png" align="center" width="100%"></a></td>
+    <td align="center"><a href=""><img src="../../assets/114x114.png" align="center" width="100%"></a></td>
+    <td align="center"><a href=""><img src="../../assets/114x114.png" align="center" width="100%"></a></td>
+  </tr></tbody>
+  <tbody><tr>
+    <td align="center">⚪️</td>
+    <td align="center">⚪️</td>
+    <td align="center">⚪️</td>
+    <td align="center">⚪️</td>
+    <td align="center">⚪️</td>
   </tr></tbody>
 </table>
