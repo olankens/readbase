@@ -75,4 +75,18 @@
     <td align="center">⚪️</td>
     <td align="center">⚪️</td>
   </tr></tbody>
+  <tbody><tr>
+    <td align="center"><a href=""><img src="../../assets/114x114.png" align="center" width="100%"></a></td>
+    <td align="center"><a href=""><img src="../../assets/114x114.png" align="center" width="100%"></a></td>
+    <td align="center"><a href=""><img src="../../assets/114x114.png" align="center" width="100%"></a></td>
+    <td align="center"><a href=""><img src="../../assets/114x114.png" align="center" width="100%"></a></td>
+    <td align="center"><a href=""><img src="../../assets/114x114.png" align="center" width="100%"></a></td>
+  </tr></tbody>
+  <tbody><tr>
+    <td align="center">⚪️</td>
+    <td align="center">⚪️</td>
+    <td align="center">⚪️</td>
+    <td align="center">⚪️</td>
+    <td align="center">⚪️</td>
+  </tr></tbody>
 </table>
