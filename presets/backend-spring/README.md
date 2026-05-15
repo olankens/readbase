@@ -21,12 +21,6 @@
 
 ### PREVIEWS
 
-#### ER Diagram
-
-<p><img src="../../assets/1024x416.png" align="center" width="100%"></p>
-
-#### OpenAPI Documentation
-
 <p><img src="../../assets/504x416.png" align="center" width="49.21875%"><picture><img src="../../assets/10x10.gif" align="center" width="1.5625%"/></picture><img src="../../assets/504x416.png" align="center" width="49.21875%"></p>
 
 ### FEATURES

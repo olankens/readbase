@@ -17,6 +17,10 @@
   <picture><source media="(prefers-color-scheme: dark)" srcset="../../assets/logos/xcode-dark.png"><img src="../../assets/logos/xcode-light.png" align="center" width="56"/></picture>
 </p></td></tr></table>
 
+### PREVIEWS
+
+<p><img src="../../assets/192x416.png" align="center" width="18.75%"><picture><img src="../../assets/10x10.gif" align="center" width="1.5625%"></picture><img src="../../assets/192x416.png" align="center" width="18.75%"><picture><img src="../../assets/10x10.gif" align="center" width="1.5625%"></picture><img src="../../assets/192x416.png" align="center" width="18.75%"><picture><img src="../../assets/10x10.gif" align="center" width="1.5625%"></picture><img src="../../assets/192x416.png" align="center" width="18.75%"><picture><img src="../../assets/10x10.gif" align="center" width="1.5625%"></picture><img src="../../assets/192x416.png" align="center" width="18.75%"></p>
+
 ### FEATURES
 
 <table>
@@ -27,8 +31,5 @@
 
 ### RELEASES
 
-<p><a href="#"><img src="../../assets/stores/github.svg" align="center" width="32.2916666667%"></a><picture><img src="../../assets/10x10.gif" align=center width="1.5625%"></picture><a href="#"><img src="../../assets/stores/appstore.svg" align="center" width="32.2916666667%"></a><picture><img src="../../assets/10x10.gif" align=center width="1.5625%"></picture><a href="#"><img src="../../assets/stores/altstore.svg" align="center" width="32.2916666667%"></a></p>
+<p><a href="#"><img src="../../assets/stores/github.svg" align="center" width="32.2916666667%"></a><picture><img src="../../assets/10x10.gif" align="center" width="1.5625%"></picture><a href="#"><img src="../../assets/stores/appstore.svg" align="center" width="32.2916666667%"></a><picture><img src="../../assets/10x10.gif" align="center" width="1.5625%"></picture><a href="#"><img src="../../assets/stores/altstore.svg" align="center" width="32.2916666667%"></a></p>
 
-### PREVIEWS
-
-<p><img src="../../assets/192x416.png" align="center" width="18.75%"><picture><img src="../../assets/10x10.gif" align=center width="1.5625%"></picture><img src="../../assets/192x416.png" align="center" width="18.75%"><picture><img src="../../assets/10x10.gif" align=center width="1.5625%"></picture><img src="../../assets/192x416.png" align="center" width="18.75%"><picture><img src="../../assets/10x10.gif" align=center width="1.5625%"></picture><img src="../../assets/192x416.png" align="center" width="18.75%"><picture><img src="../../assets/10x10.gif" align=center width="1.5625%"></picture><img src="../../assets/192x416.png" align="center" width="18.75%"></p>
