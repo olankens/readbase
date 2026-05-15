@@ -12,11 +12,15 @@
   ...
 </p>&nbsp;</td></tr></table>
 
-<table align="center"><tr><td align="center" width="9999"><p>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="../../assets/logos/kotlin-dark.png"><img src="../../assets/logos/kotlin-light.png" align="center" width="56"/></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="../../assets/logos/androidstudio-dark.png"><img src="../../assets/logos/androidstudio-light.png" align="center" width="56"/></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="../../assets/logos/jetpackcompose-dark.png"><img src="../../assets/logos/jetpackcompose-light.png" align="center" width="56"/></picture>
-</p></td></tr></table>
+[//]: # (<table align="center"><tr><td align="center" width="9999"><p>)
+
+[//]: # (  <picture><source media="&#40;prefers-color-scheme: dark&#41;" srcset="../../assets/logos/kotlin-dark.png"><img src="../../assets/logos/kotlin-light.png" align="center" width="56"/></picture>)
+
+[//]: # (  <picture><source media="&#40;prefers-color-scheme: dark&#41;" srcset="../../assets/logos/androidstudio-dark.png"><img src="../../assets/logos/androidstudio-light.png" align="center" width="56"/></picture>)
+
+[//]: # (  <picture><source media="&#40;prefers-color-scheme: dark&#41;" srcset="../../assets/logos/jetpackcompose-dark.png"><img src="../../assets/logos/jetpackcompose-light.png" align="center" width="56"/></picture>)
+
+[//]: # (</p></td></tr></table>)
 
 ### PREVIEWS
 

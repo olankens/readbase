@@ -12,14 +12,21 @@
   README preset collection optimized for the vast majority of very commonly used Markdown renderers, including all those from GitHub, GitLab, PyPI, NPM, Crates, and many other similar very popular systems.
 </p>&nbsp;</td></tr></table>
 
-<table align="center"><tr><td align="center" width="9999"><p>
-  <!-- LOGOS_START -->
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/logos/expo-dark.png"><img src="assets/logos/expo-light.png" align="center" width="56"/></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/logos/figma-dark.png"><img src="assets/logos/figma-light.png" align="center" width="56"/></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/logos/mqtt-dark.png"><img src="assets/logos/mqtt-light.png" align="center" width="56"/></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/logos/spring-dark.png"><img src="assets/logos/spring-light.png" align="center" width="56"/></picture>
-  <!-- LOGOS_CEASE -->
-</p></td></tr></table>
+[//]: # (<table align="center"><tr><td align="center" width="9999"><p>)
+
+[//]: # (  <!-- LOGOS_START -->)
+
+[//]: # (  <picture><source media="&#40;prefers-color-scheme: dark&#41;" srcset="assets/logos/expo-dark.png"><img src="assets/logos/expo-light.png" align="center" width="56"/></picture>)
+
+[//]: # (  <picture><source media="&#40;prefers-color-scheme: dark&#41;" srcset="assets/logos/figma-dark.png"><img src="assets/logos/figma-light.png" align="center" width="56"/></picture>)
+
+[//]: # (  <picture><source media="&#40;prefers-color-scheme: dark&#41;" srcset="assets/logos/mqtt-dark.png"><img src="assets/logos/mqtt-light.png" align="center" width="56"/></picture>)
+
+[//]: # (  <picture><source media="&#40;prefers-color-scheme: dark&#41;" srcset="assets/logos/spring-dark.png"><img src="assets/logos/spring-light.png" align="center" width="56"/></picture>)
+
+[//]: # (  <!-- LOGOS_CEASE -->)
+
+[//]: # (</p></td></tr></table>)
 
 ### PREVIEWS
 

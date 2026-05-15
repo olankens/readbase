@@ -12,10 +12,13 @@
   ...
 </p>&nbsp;</td></tr></table>
 
-<table align="center"><tr><td align="center" width="9999"><p>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="../../assets/logos/powershell-dark.png"><img src="../../assets/logos/powershell-light.png" align="center" width="56"/></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="../../assets/logos/windows-dark.png"><img src="../../assets/logos/windows-light.png" align="center" width="56"/></picture>
-</p></td></tr></table>
+[//]: # (<table align="center"><tr><td align="center" width="9999"><p>)
+
+[//]: # (  <picture><source media="&#40;prefers-color-scheme: dark&#41;" srcset="../../assets/logos/powershell-dark.png"><img src="../../assets/logos/powershell-light.png" align="center" width="56"/></picture>)
+
+[//]: # (  <picture><source media="&#40;prefers-color-scheme: dark&#41;" srcset="../../assets/logos/windows-dark.png"><img src="../../assets/logos/windows-light.png" align="center" width="56"/></picture>)
+
+[//]: # (</p></td></tr></table>)
 
 ### MATRICES
 
