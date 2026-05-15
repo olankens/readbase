@@ -18,15 +18,37 @@
 
 ### PREVIEWS
 
-#### Beginner Level
+<table>
+  <tbody><tr>
+    <td align="center" width="9999"><a href="chain-burn.md"><img src="../../assets/102380.jpg" align="center"></a></td>
+    <td align="center" width="9999"><a href="unstoppable.md"><img src="../../assets/83257450.jpg" align="center"></a></td>
+    <td align="center" width="9999"><a href="blue-eyes.md"><img src="../../assets/30397786.jpg" align="center"></a></td>
+    <td align="center" width="9999"><a href=""><img src="../../assets/114x114.png" align="center"></a></td>
+  </tr></tbody>
+  <tbody><tr>
+    <td align="center" width="9999">🟢</td>
+    <td align="center" width="9999">🟢</td>
+    <td align="center" width="9999">🟡</td>
+    <td align="center" width="9999">⚪️</td>
+  </tr></tbody>
+  <tbody><tr>
+    <td align="center" width="9999"><a href=""><img src="../../assets/114x114.png" align="center"></a></td>
+    <td align="center" width="9999"><a href=""><img src="../../assets/114x114.png" align="center"></a></td>
+    <td align="center" width="9999"><a href=""><img src="../../assets/114x114.png" align="center"></a></td>
+    <td align="center" width="9999"><a href=""><img src="../../assets/114x114.png" align="center"></a></td>
+  </tr></tbody>
+  <tbody><tr>
+    <td align="center" width="9999">⚪️</td>
+    <td align="center" width="9999">⚪️</td>
+    <td align="center" width="9999">⚪️</td>
+    <td align="center" width="9999">⚪️</td>
+  </tr></tbody>
+</table>
 
-<p><a href="chain-burn.md"><img src="../../assets/102380.jpg" align="center" width="18.75%"></a><picture><img src="../../assets/10x10.gif" align=center width="1.5625%"/></picture><a href="unstoppable.md"><img src="../../assets/83257450.jpg" align="center" width="18.75%"></a><picture><img src="../../assets/10x10.gif" align=center width="1.5625%"/></picture><a href="blue-eyes.md"><img src="../../assets/30397786.jpg" align="center" width="18.75%"></a><picture><img src="../../assets/10x10.gif" align=center width="1.5625%"/></picture><a href=""><img src="../../assets/114x114.png" align="center" width="18.75%"></a><picture><img src="../../assets/10x10.gif" align=center width="1.5625%"/></picture><a href=""><img src="../../assets/114x114.png" align="center" width="18.75%"></a></p>
-<p><a href=""><img src="../../assets/114x114.png" align="center" width="18.75%"></a><picture><img src="../../assets/10x10.gif" align=center width="1.5625%"/></picture><a href=""><img src="../../assets/114x114.png" align="center" width="18.75%"></a><picture><img src="../../assets/10x10.gif" align=center width="1.5625%"/></picture><a href=""><img src="../../assets/114x114.png" align="center" width="18.75%"></a><picture><img src="../../assets/10x10.gif" align=center width="1.5625%"/></picture><a href=""><img src="../../assets/114x114.png" align="center" width="18.75%"></a><picture><img src="../../assets/10x10.gif" align=center width="1.5625%"/></picture><a href=""><img src="../../assets/114x114.png" align="center" width="18.75%"></a></p>
-
-#### Advanced Level
-
-<p><a href=""><img src="../../assets/114x114.png" align="center" width="18.75%"></a><picture><img src="../../assets/10x10.gif" align=center width="1.5625%"/></picture><a href=""><img src="../../assets/114x114.png" align="center" width="18.75%"></a><picture><img src="../../assets/10x10.gif" align=center width="1.5625%"/></picture><a href=""><img src="../../assets/114x114.png" align="center" width="18.75%"></a><picture><img src="../../assets/10x10.gif" align=center width="1.5625%"/></picture><a href=""><img src="../../assets/114x114.png" align="center" width="18.75%"></a><picture><img src="../../assets/10x10.gif" align=center width="1.5625%"/></picture><a href=""><img src="../../assets/114x114.png" align="center" width="18.75%"></a></p>
-
-#### Competitive Level
-
-<p><a href=""><img src="../../assets/114x114.png" align="center" width="18.75%"></a><picture><img src="../../assets/10x10.gif" align=center width="1.5625%"/></picture><a href=""><img src="../../assets/114x114.png" align="center" width="18.75%"></a><picture><img src="../../assets/10x10.gif" align=center width="1.5625%"/></picture><a href=""><img src="../../assets/114x114.png" align="center" width="18.75%"></a><picture><img src="../../assets/10x10.gif" align=center width="1.5625%"/></picture><a href=""><img src="../../assets/114x114.png" align="center" width="18.75%"></a><picture><img src="../../assets/10x10.gif" align=center width="1.5625%"/></picture><a href=""><img src="../../assets/114x114.png" align="center" width="18.75%"></a></p>
+<table>
+  <tbody><tr>
+    <td align="center" width="9999">🟢&nbsp;&nbsp;EASY</td>
+    <td align="center" width="9999">🟡&nbsp;&nbsp;MEDIUM</td>
+    <td align="center" width="9999">🔴️&nbsp;&nbsp;HARD</td>
+  </tr></tbody>
+</table>
