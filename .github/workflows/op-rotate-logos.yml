@@ -17,13 +17,13 @@ jobs:
         with:
           script: |
             const fs = require('fs');
-            const min = 4;
-            const max = 5;
+            const min = 6;
+            const max = 7;
             const logos = [...new Set(fs.readdirSync('assets/logos').map(f => f.replace(/-(dark|light)(?=\.[^.]+$)/, '').replace('.png', '')))];
             const count = Math.floor(Math.random() * (max - min + 1)) + min;
             const shuffled = logos.sort(() => Math.random() - 0.5);
             const selected = shuffled.slice(0, Math.min(count, logos.length));
-            const html = selected.map(logo => `  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/logos/${logo}-dark.png"><img src="assets/logos/${logo}-light.png" align="center" width="56"/></picture>`).join('\n');
+            const html = selected.map(logo => `  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/logos/${logo}-dark.png"><img src="assets/logos/${logo}-light.png" align="center" width="52"/></picture>`).join('\n');
             const replacement = `<!-- LOGOS_START -->\n${html}\n  <!-- LOGOS_CEASE -->`;
             const readme = fs.readFileSync('README.md', 'utf8');
             const updated = readme.replace(/<!-- LOGOS_START -->([\s\S]*?)  <!-- LOGOS_CEASE -->/, replacement);
