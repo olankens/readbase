@@ -13,8 +13,10 @@
 </p>&nbsp;</td></tr></table>
 
 <table align="center"><tr><td align="center" width="9999"><p>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="../../assets/logos/apple-dark.png"><img src="../../assets/logos/apple-light.png" align="center" width="52"></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="../../assets/logos/xcode-dark.png"><img src="../../assets/logos/xcode-light.png" align="center" width="52"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="../../assets/logos/ios-dark.png"><img src="../../assets/logos/ios-light.png" align="center" width="52"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="../../assets/logos/angular-dark.png"><img src="../../assets/logos/angular-light.png" align="center" width="52"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="../../assets/logos/spring-dark.png"><img src="../../assets/logos/spring-light.png" align="center" width="52"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="../../assets/logos/android-dark.png"><img src="../../assets/logos/android-light.png" align="center" width="52"></picture>
 </p></td></tr></table>
 
 ### PREVIEWS
