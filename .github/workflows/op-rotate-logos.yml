@@ -17,8 +17,8 @@ jobs:
         with:
           script: |
             const fs = require('fs');
-            const min = 6;
-            const max = 7;
+            const min = 5;
+            const max = 5;
             const logos = [...new Set(fs.readdirSync('assets/logos').map(f => f.replace(/-(dark|light)(?=\.[^.]+$)/, '').replace('.png', '')))];
             const count = Math.floor(Math.random() * (max - min + 1)) + min;
             const shuffled = logos.sort(() => Math.random() - 0.5);
