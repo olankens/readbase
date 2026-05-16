@@ -14,12 +14,11 @@
 
 <table align="center"><tr><td align="center" width="9999"><p>
   <!-- LOGOS_START -->
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/logos/windows-dark.png"><img src="assets/logos/windows-light.png" align="center" width="52"/></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/logos/circle-dark.png"><img src="assets/logos/circle-light.png" align="center" width="52"/></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/logos/square-dark.png"><img src="assets/logos/square-light.png" align="center" width="52"/></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/logos/github-dark.png"><img src="assets/logos/github-light.png" align="center" width="52"/></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/logos/intellij-dark.png"><img src="assets/logos/intellij-light.png" align="center" width="52"/></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/logos/spring-dark.png"><img src="assets/logos/spring-light.png" align="center" width="52"/></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/logos/apple-dark.png"><img src="assets/logos/apple-light.png" align="center" width="52"/></picture>
   <picture><source media="(prefers-color-scheme: dark)" srcset="assets/logos/python-dark.png"><img src="assets/logos/python-light.png" align="center" width="52"/></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/logos/pycharm-dark.png"><img src="assets/logos/pycharm-light.png" align="center" width="52"/></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/logos/mqtt-dark.png"><img src="assets/logos/mqtt-light.png" align="center" width="52"/></picture>
   <!-- LOGOS_CEASE -->
 </p></td></tr></table>
 
