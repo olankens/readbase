@@ -1,0 +1,109 @@
+name: "📙 : Update Presets"
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - '.github/workflows/op-update-presets.yml'
+      - 'source/**/.assets/**'
+      - 'source/**/README.md'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+      - name: Cache Playwright
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: ${{ runner.os }}-playwright-${{ hashFiles('package-lock.json') }}
+          restore-keys: ${{ runner.os }}-playwright-
+      - name: Install dependencies
+        run: |
+          npm install --no-save playwright sharp
+          npx playwright install chromium
+      - name: Capture screenshots
+        run: |
+          node <<'EOF'
+            const fs = require('fs');
+            const path = require('path');
+            const sharp = require('sharp');
+            const { chromium } = require('playwright');
+            const SOURCE_PATH = './source';
+            const ASSETS_PATH = './.assets';
+            const README_PATH = './README.md';
+            const START_BLOCK = '<!-- START_BLOCK -->'
+            const CEASE_BLOCK = '<!-- CEASE_BLOCK -->';
+            const CHUNK_SIZE = 6;
+            async function screenshot(page, url, outputPath) {
+              await page.emulateMedia({ colorScheme: 'light' });
+              await page.goto(url, { waitUntil: 'load', timeout: 60000 });
+              const markdownBody = page.locator('.markdown-body');
+              await markdownBody.waitFor({ state: 'visible' });
+              const box = await markdownBody.boundingBox();
+              await page.evaluate(y => window.scrollTo(0, y), box.y);
+              await page.waitForTimeout(2000);
+              const raw = await page.screenshot();
+              const { width, height } = await sharp(raw).metadata();
+              await sharp(raw)
+                .extend({ top: 32, bottom: 32, background: { r: 255, g: 255, b: 255, alpha: 1 } })
+                .png().toFile(outputPath + '.tmp.png');
+              const buf = await sharp(outputPath + '.tmp.png')
+                .extract({ left: 2, top: 2, width: width - 4, height: height + 60 })
+                .extend({ top: 2, bottom: 2, left: 2, right: 2, background: { r: 204, g: 204, b: 204, alpha: 1 } })
+                .png().toBuffer();
+              await fs.promises.writeFile(outputPath, buf);
+              await fs.promises.unlink(outputPath + '.tmp.png');
+            }
+            async function main() {
+              const presets = fs.readdirSync(SOURCE_PATH, { withFileTypes: true })
+                .filter(i => i.isDirectory() && fs.existsSync(path.join(SOURCE_PATH, i.name, 'README.md')))
+                .map(i => i.name)
+                .filter(name => name !== 'readbase');
+              if (!presets.length) return;
+              fs.mkdirSync(ASSETS_PATH, { recursive: true });
+              const browser = await chromium.launch({ headless: true });
+              const page = await browser.newPage();
+              await page.setViewportSize({ width: Math.round(192 * 2.75), height: Math.round((416 * 2.75) - 64) });
+              for (let i = 0; i < presets.length; i++) {
+                const name = presets[i];
+                // const asset = `asset-${String(i + 1).padStart(2, '0')}`;
+                const asset = `preset-${name}`;
+                const url = `https://github.com/olankens/readbase/blob/main/source/${name}`;
+                console.log(`Capturing ${name}...`);
+                await screenshot(page, url, path.join(ASSETS_PATH, `${asset}.png`));
+              }
+              await browser.close();
+              const rows = [];
+              for (let i = 0; i < presets.length; i += CHUNK_SIZE) {
+                rows.push(presets.slice(i, i + CHUNK_SIZE));
+              }
+              const tbodies = rows.map(row => {
+                const tds = row.map(name =>
+                  `<td><a href="source/${name}">` +
+                  `<img src=".assets/preset-${name}.png" align="center" width="99999"></a></td>`
+                ).join('');
+                return `  <tbody><tr>${tds}</tr></tbody>`;
+              }).join('\n');
+              const section = `${START_BLOCK}\n<table>\n${tbodies}\n</table>\n${CEASE_BLOCK}`;
+              const readme  = fs.readFileSync(README_PATH, 'utf8');
+              const pattern = new RegExp(`${START_BLOCK}[\\s\\S]*?${CEASE_BLOCK}`);
+              fs.writeFileSync(README_PATH, pattern.test(readme) ? readme.replace(pattern, section) : `${readme}\n\n${section}\n`);
+            }
+            main().catch(err => { console.error(err); process.exit(1); });
+          EOF
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .
+          git diff --staged --quiet || git commit -m "chore: update the preset captures"
+          git push
