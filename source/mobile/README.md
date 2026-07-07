@@ -14,6 +14,10 @@ Sed scelerisque eu sapien eu pharetra. Nam purus nisl, congue sed condimentum ac
 
 Nulla nec commodo lacus. Maecenas hendrerit, velit quis laoreet rhoncus, lectus dolor porttitor nisl, eget lacinia neque nunc nec quam. Suspendisse odio metus, pretium sed nunc vitae, venenatis metus.
 
+## Feature Number Three
+
+Donec interdum ullamcorper eros. Suspendisse non malesuada quam, at facilisis tortor. Donec semper urna at nunc elementum dapibus. Ut nec erat felis. Sed ac gravida odio. Sed tincidunt dui mauris est.
+
 ## Debug Android Application
 
 Here is how to open project with Android Studio.
