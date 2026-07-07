@@ -23,7 +23,7 @@
 
 <!-- START_BLOCK -->
 <table>
-  <tbody><tr><td><a href="source/icons"><img src=".assets/preset-icons.png" align="center" width="99999"></a></td><td><a href="source/mobile"><img src=".assets/preset-mobile.png" align="center" width="99999"></a></td><td><a href="source/wallpapers"><img src=".assets/preset-wallpapers.png" align="center" width="99999"></a></td></tr></tbody>
+  <tbody><tr><td><a href="source/icons"><img src=".assets/preset-icons.png" align="center" width="99999"></a></td><td><a href="source/mobile"><img src=".assets/preset-mobile.png" align="center" width="99999"></a></td><td><a href="source/terminal"><img src=".assets/preset-terminal.png" align="center" width="99999"></a></td><td><a href="source/wallpapers"><img src=".assets/preset-wallpapers.png" align="center" width="99999"></a></td></tr></tbody>
 </table>
 <!-- CEASE_BLOCK -->
 
