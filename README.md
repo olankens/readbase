@@ -23,8 +23,7 @@
 
 <!-- START_BLOCK -->
 <table>
-  <tbody><tr><td><a href="source/devpaper"><img src=".assets/preset-devpaper.png" align="center" width="99999"></a></td><td><a href="source/_old/gymtalog"><img src=".assets/preset-gymtalog.png" align="center" width="99999"></a></td><td><a href="source/_old/javamuse"><img src=".assets/preset-javamuse.png" align="center" width="99999"></a></td><td><a href="source/_old/npm"><img src=".assets/preset-npm.png" align="center" width="99999"></a></td><td><a href="source/_old/pub"><img src=".assets/preset-pub.png" align="center" width="99999"></a></td><td><a href="source/_old/pypi"><img src=".assets/preset-pypi.png" align="center" width="99999"></a></td></tr></tbody>
-  <tbody><tr><td><a href="source/_old/senchard"><img src=".assets/preset-senchard.png" align="center" width="99999"></a></td></tr></tbody>
+  <tbody><tr><td><a href="source/icons"><img src=".assets/preset-icons.png" align="center" width="99999"></a></td><td><a href="source/mobile"><img src=".assets/preset-mobile.png" align="center" width="99999"></a></td><td><a href="source/wallpapers"><img src=".assets/preset-wallpapers.png" align="center" width="99999"></a></td></tr></tbody>
 </table>
 <!-- CEASE_BLOCK -->
 
