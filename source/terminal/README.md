@@ -1,10 +1,8 @@
 # TEMPLATE
 
-<p>
-<img src=".assets/desktop.png" align="center" width="49.21875%"><picture><img src=".assets/blank.gif" align="center" width="1.5625%"></picture><img src=".assets/desktop.png" align="center" width="49.21875%">
-</p>
+<p><img src="https://lipsum.app/450x325/ccc/ccc" align="center" width="50%"><img src="https://lipsum.app/450x325/999/999" align="center" width="50%"></p>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut semper turpis ipsum, at vulputate lacus congue pulvinar. In et convallis nunc, eget tempor orci. Nullam et viverra eros. In scelerisque aenean.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum non eleifend neque. Aliquam euismod non eros at dictum. Nulla vitae nulla sed augue sollicitudin iaculis id quis lectus. Morbi vel nunc ac risus ullamcorper aliquet sapien.
 
 ## Feature Number One
 
@@ -23,7 +21,7 @@ Donec odio mi, faucibus nec massa eget, tempus mattis lectus. Phasellus auctor d
 Here is how to execute the script.
 
 ```sh
-studio apps/android
+
 ```
 
 ## Import Functions
@@ -31,5 +29,5 @@ studio apps/android
 Here is how to import script functions.
 
 ```sh
-xed apps/ios
+
 ```

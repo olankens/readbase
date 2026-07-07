@@ -42,7 +42,7 @@ jobs:
             const README_PATH = './README.md';
             const START_BLOCK = '<!-- START_BLOCK -->'
             const CEASE_BLOCK = '<!-- CEASE_BLOCK -->';
-            const CHUNK_SIZE = 6;
+            const CHUNK_SIZE = 5;
             async function screenshot(page, url, outputPath) {
               await page.emulateMedia({ colorScheme: 'light' });
               await page.goto(url, { waitUntil: 'load', timeout: 60000 });

@@ -1,6 +1,6 @@
 # TEMPLATE
 
-<p><img src="https://lipsum.app/150x325/ccc/ccc" align="center" width="16.6666666667%"><img src="https://lipsum.app/150x325/999/999" align="center" width="16.6666666667%"><img src="https://lipsum.app/150x325/ccc/ccc" align="center" width="16.6666666667%"><img src="https://lipsum.app/150x325/999/999" align="center" width="16.6666666667%"><img src="https://lipsum.app/150x325/ccc/ccc" align="center" width="16.6666666667%"><img src="https://lipsum.app/150x325/999/999" align="center" width="16.6666666667%"></p>
+<p><img src="https://lipsum.app/150x325/ccc/ccc" align="center" width="16.6666666667%"><img src="https://lipsum.app/150x325/999/999" align="center" width="16.6666666667%"><img src="https://lipsum.app/150x325/ccc/ccc" align="center" width="16.6666666667%"><img src="https://lipsum.app/450x325/999/999" align="center" width="50%"></p>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum non eleifend neque. Aliquam euismod non eros at dictum. Nulla vitae nulla sed augue sollicitudin iaculis id quis lectus. Morbi vel nunc ac risus ullamcorper aliquet sapien.
 
@@ -16,18 +16,18 @@ Suspendisse auctor nunc et velit gravida, vitae lobortis libero vulputate. Nunc 
 
 Donec odio mi, faucibus nec massa eget, tempus mattis lectus. Phasellus auctor dignissim aliquam. Etiam ut lectus ac nibh tincidunt ornare. Sed in velit leo. Nulla dui nulla, convallis quis risus sed, luctus viverra nunc. Praesent molestie.
 
-## Debug Android Application
+## Debug With VSCode
 
-Here is how to open project with Android Studio.
+Here is how to open with VSCode.
 
 ```sh
-studio apps/android
+code .
 ```
 
-## Debug iOS Application
+## Debug With IntelliJ IDEA
 
-Here is how to open project with Xcode.
+Here is how to open with IntelliJ IDEA.
 
 ```sh
-xed apps/ios
+idea .
 ```
