@@ -16,7 +16,7 @@
 ## PREVIEWS
 
 <table><tbody><tr><td width="99999">
-  <img src="https://lipsum.app/192x416/ccc/000" align="center" width="18.75%"><picture><img src=".assets/blank.gif" align="center" width="1.5625%"></picture><img src="https://lipsum.app/192x416/ccc/000" align="center" width="18.75%"><picture><img src=".assets/blank.gif" align="center" width="1.5625%"></picture><img src="https://lipsum.app/192x416/ccc/000" align="center" width="18.75%"><picture><img src=".assets/blank.gif" align="center" width="1.5625%"></picture><img src="https://lipsum.app/192x416/ccc/000" align="center" width="18.75%"><picture><img src=".assets/blank.gif" align="center" width="1.5625%"></picture><img src="https://lipsum.app/192x416/ccc/000" align="center" width="18.75%">
+  <img src="https://lipsum.app/192x416/ccc/ccc" align="center" width="18.75%"><picture><img src=".assets/blank.gif" align="center" width="1.5625%"></picture><img src="https://lipsum.app/192x416/ccc/ccc" align="center" width="18.75%"><picture><img src=".assets/blank.gif" align="center" width="1.5625%"></picture><img src="https://lipsum.app/192x416/ccc/ccc" align="center" width="18.75%"><picture><img src=".assets/blank.gif" align="center" width="1.5625%"></picture><img src="https://lipsum.app/192x416/ccc/ccc" align="center" width="18.75%"><picture><img src=".assets/blank.gif" align="center" width="1.5625%"></picture><img src="https://lipsum.app/192x416/ccc/ccc" align="center" width="18.75%">
 </td></tr></tbody></table>
 
 ## FEATURES
