@@ -66,8 +66,8 @@ jobs:
             async function main() {
               const templates = fs.readdirSync(SOURCE_PATH, { withFileTypes: true })
                 .filter(i => i.isDirectory() && fs.existsSync(path.join(SOURCE_PATH, i.name, 'README.md')))
-                .map(i => i.name)
-                .filter(name => name !== 'readbase');
+                .map(i => i.name);
+                // .filter(name => name !== 'readbase');
               if (!templates.length) return;
               fs.mkdirSync(ASSETS_PATH, { recursive: true });
               const browser = await chromium.launch({ headless: true });
