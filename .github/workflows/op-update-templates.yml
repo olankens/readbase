@@ -42,7 +42,7 @@ jobs:
             const README_PATH = './README.md';
             const START_BLOCK = '<!-- START_BLOCK -->'
             const CEASE_BLOCK = '<!-- CEASE_BLOCK -->';
-            const CHUNK_SIZE = 5;
+            const CHUNK_ITEMS = 5;
             async function screenshot(page, url, outputPath) {
               await page.emulateMedia({ colorScheme: 'light' });
               await page.goto(url, { waitUntil: 'load', timeout: 60000 });
@@ -83,8 +83,8 @@ jobs:
               }
               await browser.close();
               const rows = [];
-              for (let i = 0; i < templates.length; i += CHUNK_SIZE) {
-                rows.push(templates.slice(i, i + CHUNK_SIZE));
+              for (let i = 0; i < templates.length; i += CHUNK_ITEMS) {
+                rows.push(templates.slice(i, i + CHUNK_ITEMS));
               }
               const tbodies = rows.map(row => {
                 const tds = row.map(name =>

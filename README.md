@@ -35,3 +35,9 @@
 ```sh
 cp -r source/readbase source/<template>
 ```
+
+### TRIGGER TEMPLATE CAPTURE
+
+```sh
+gh workflow run "op-update-templates.yml"
+```
