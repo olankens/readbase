@@ -30,8 +30,8 @@
 
 ## LEARNING
 
-### CREATE NEW PRESET
+### CREATE NEW TEMPLATE
 
 ```sh
-cp -r source/readbase source/<preset>
+cp -r source/readbase source/<template>
 ```

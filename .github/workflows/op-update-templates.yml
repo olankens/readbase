@@ -1,10 +1,10 @@
-name: "📙 : Update Presets"
+name: "📙 : Update Templates"
 
 on:
   push:
     branches: [ main ]
     paths:
-      - '.github/workflows/op-update-presets.yml'
+      - '.github/workflows/op-update-templates.yml'
       - 'source/**/.assets/**'
       - 'source/**/README.md'
   workflow_dispatch:
@@ -64,32 +64,32 @@ jobs:
               await fs.promises.unlink(outputPath + '.tmp.png');
             }
             async function main() {
-              const presets = fs.readdirSync(SOURCE_PATH, { withFileTypes: true })
+              const templates = fs.readdirSync(SOURCE_PATH, { withFileTypes: true })
                 .filter(i => i.isDirectory() && fs.existsSync(path.join(SOURCE_PATH, i.name, 'README.md')))
                 .map(i => i.name)
                 .filter(name => name !== 'readbase');
-              if (!presets.length) return;
+              if (!templates.length) return;
               fs.mkdirSync(ASSETS_PATH, { recursive: true });
               const browser = await chromium.launch({ headless: true });
               const page = await browser.newPage();
               await page.setViewportSize({ width: Math.round(192 * 2.75), height: Math.round((416 * 2.75) - 64) });
-              for (let i = 0; i < presets.length; i++) {
-                const name = presets[i];
+              for (let i = 0; i < templates.length; i++) {
+                const name = templates[i];
                 // const asset = `asset-${String(i + 1).padStart(2, '0')}`;
-                const asset = `preset-${name}`;
+                const asset = `template-${name}`;
                 const url = `https://github.com/olankens/readbase/blob/main/source/${name}`;
                 console.log(`Capturing ${name}...`);
                 await screenshot(page, url, path.join(ASSETS_PATH, `${asset}.png`));
               }
               await browser.close();
               const rows = [];
-              for (let i = 0; i < presets.length; i += CHUNK_SIZE) {
-                rows.push(presets.slice(i, i + CHUNK_SIZE));
+              for (let i = 0; i < templates.length; i += CHUNK_SIZE) {
+                rows.push(templates.slice(i, i + CHUNK_SIZE));
               }
               const tbodies = rows.map(row => {
                 const tds = row.map(name =>
                   `<td><a href="source/${name}">` +
-                  `<img src=".assets/preset-${name}.png" align="center" width="99999"></a></td>`
+                  `<img src=".assets/template-${name}.png" align="center" width="99999"></a></td>`
                 ).join('');
                 return `  <tbody><tr>${tds}</tr></tbody>`;
               }).join('\n');
@@ -105,5 +105,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add .
-          git diff --staged --quiet || git commit -m "chore: update the preset captures"
+          git diff --staged --quiet || git commit -m "chore: update the template captures"
           git push
