@@ -12,9 +12,9 @@
     README Markdown templates tailored for maximum compatibility across many software registries like Crates, NPM, Pub, PyPi, and also the Git platforms like Codeberg, Gitee, GitHub, GitLab, and many more.
   </div>&nbsp;</td></tr></tbody>
   <tbody><tr><td align="center" width="99999">
-    <a href="#"><img src=".assets/playwright.svg" align="center" width="56"></a>
-    <a href="#"><img src=".assets/playwright.svg" align="center" width="56"></a>
-    <a href="#"><img src=".assets/playwright.svg" align="center" width="56"></a>
+    <a href="#"><img src=".assets/playwright.svg" align="center" width="48"></a>
+    <a href="#"><img src=".assets/playwright.svg" align="center" width="48"></a>
+    <a href="#"><img src=".assets/playwright.svg" align="center" width="48"></a>
   </td></tr></tbody>
 </table>
 
