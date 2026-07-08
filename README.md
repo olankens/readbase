@@ -35,13 +35,17 @@
 
 ## LEARNING
 
-### CREATE NEW TEMPLATE
+### Create New Template
+
+Just copy the readbase folder and make it yours.
 
 ```sh
-cp -r source/readbase source/ <template>
+cp -r "source/readbase" "source/<template>"
 ```
 
-### TRIGGER TEMPLATE CAPTURE
+### Trigger Template Capture
+
+You can run the update templates workflow manually.
 
 ```sh
 gh workflow run "op-update-templates.yml"
