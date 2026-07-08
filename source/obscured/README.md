@@ -62,6 +62,16 @@
     <td>&nbsp;<img src="source/icon.avif" align="center" width="99999">&nbsp;</td>
     <td>&nbsp;<img src="source/icon.avif" align="center" width="99999">&nbsp;</td>
   </tr></tbody>
+  <tbody><tr>
+    <td>&nbsp;<img src="source/icon.avif" align="center" width="99999">&nbsp;</td>
+    <td>&nbsp;<img src="source/icon.avif" align="center" width="99999">&nbsp;</td>
+    <td>&nbsp;<img src="source/icon.avif" align="center" width="99999">&nbsp;</td>
+    <td>&nbsp;<img src="source/icon.avif" align="center" width="99999">&nbsp;</td>
+    <td>&nbsp;<img src="source/icon.avif" align="center" width="99999">&nbsp;</td>
+    <td>&nbsp;<img src="source/icon.avif" align="center" width="99999">&nbsp;</td>
+    <td>&nbsp;<img src="source/icon.avif" align="center" width="99999">&nbsp;</td>
+    <td>&nbsp;<img src="source/icon.avif" align="center" width="99999">&nbsp;</td>
+  </tr></tbody>
 </table>
 
 ## LEARNING
