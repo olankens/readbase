@@ -23,8 +23,8 @@
 
 <!-- START_BLOCK -->
 <table>
-  <tbody><tr><td><a href="source/gymtalog"><img src=".assets/preset-gymtalog.png" align="center" width="99999"></a></td><td><a href="source/icons"><img src=".assets/preset-icons.png" align="center" width="99999"></a></td><td><a href="source/mobile"><img src=".assets/preset-mobile.png" align="center" width="99999"></a></td><td><a href="source/shihogen"><img src=".assets/preset-shihogen.png" align="center" width="99999"></a></td><td><a href="source/terminal"><img src=".assets/preset-terminal.png" align="center" width="99999"></a></td></tr></tbody>
-  <tbody><tr><td><a href="source/wallpapers"><img src=".assets/preset-wallpapers.png" align="center" width="99999"></a></td><td><a href="source/website"><img src=".assets/preset-website.png" align="center" width="99999"></a></td></tr></tbody>
+  <tbody><tr><td><a href="source/gymtalog"><img src=".assets/preset-gymtalog.png" align="center" width="99999"></a></td><td><a href="source/_older/icons"><img src=".assets/preset-icons.png" align="center" width="99999"></a></td><td><a href="source/_older/mobile"><img src=".assets/preset-mobile.png" align="center" width="99999"></a></td><td><a href="source/shihogen"><img src=".assets/preset-shihogen.png" align="center" width="99999"></a></td><td><a href="source/_older/terminal"><img src=".assets/preset-terminal.png" align="center" width="99999"></a></td></tr></tbody>
+  <tbody><tr><td><a href="source/_older/wallpapers"><img src=".assets/preset-wallpapers.png" align="center" width="99999"></a></td><td><a href="source/_older/website"><img src=".assets/preset-website.png" align="center" width="99999"></a></td></tr></tbody>
 </table>
 <!-- CEASE_BLOCK -->
 

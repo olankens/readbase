@@ -1,32 +1,54 @@
-# TEMPLATE
+<div align="center">
+  <p><img src=".assets/icon.avif" align="center" width="120"></p>
+  <h1>SHIHOGEN</h1>
+</div>
 
-<p><img src=".assets/preview-01.png" align="center" width="16.6666666667%"><img src=".assets/preview-02.png" align="center" width="16.6666666667%"><img src=".assets/preview-03.gif" align="center" width="16.6666666667%"><img src=".assets/preview-04.png" align="center" width="16.6666666667%"><img src=".assets/preview-05.png" align="center" width="16.6666666667%"><img src=".assets/preview-03.gif" align="center" width="16.6666666667%"></p>
+<table>
+  <tbody><tr><td align="center" width="99999"><div>
+    <a href="#">WEBSITE</a> ·
+    <a href="#">FUNDING</a>
+  </div></td></tr></tbody>
+  <tbody><tr><td align="center" width="99999">&nbsp;<div>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut semper turpis ipsum, at vulputate lacus congue pulvinar. In et convallis nunc, eget tempor orci. Nullam et viverra eros. In scelerisque aenean.
+  </div>&nbsp;</td></tr></tbody>
+</table>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum non eleifend neque. Aliquam euismod non eros at dictum. Nulla vitae nulla sed augue sollicitudin iaculis id quis lectus. Morbi vel nunc ac risus ullamcorper aliquet sapien.
+## PREVIEWS
 
-## Feature Number One
+<table><tbody><tr><td width="99999">
+  <img src=".assets/preview-01.png" align="center" width="18.75%"><picture><img src=".assets/blank.gif" align="center" width="1.5625%"></picture><img src=".assets/preview-02.png" align="center" width="18.75%"><picture><img src=".assets/blank.gif" align="center" width="1.5625%"></picture><img src=".assets/preview-03.gif" align="center" width="18.75%"><picture><img src=".assets/blank.gif" align="center" width="1.5625%"></picture><img src=".assets/preview-04.png" align="center" width="18.75%"><picture><img src=".assets/blank.gif" align="center" width="1.5625%"></picture><img src=".assets/preview-05.png" align="center" width="18.75%">
+</td></tr></tbody></table>
 
-Cras non metus viverra, euismod justo non, venenatis dolor. Donec sed nisl lorem. Nulla aliquet, tellus vitae volutpat placerat, lectus diam dignissim nunc, id venenatis mauris diam et ipsum. Donec dapibus nulla consectetur vehicula aenean.
+## FEATURES
 
-## Feature Number Two
+<table>
+  <tbody><tr><td width="99999">Lorem ipsum dolor sit amet</td><td>✅</td></tr></tbody>
+  <tbody><tr><td>Curabitur sed tortor auctor</td><td>✅</td></tr></tbody>
+  <tbody><tr><td>Vivamus et elit tincidunt</td><td>✅</td></tr></tbody>
+  <tbody><tr><td>Phasellus vel convallis ultrices</td><td>✅</td></tr></tbody>
+  <tbody><tr><td>Morbi sit amet sapien vel nulla</td><td>🚧</td></tr></tbody>
+  <tbody><tr><td>Ut posuere odio nec volutpat</td><td>🚧</td></tr></tbody>
+</table>
 
-Suspendisse auctor nunc et velit gravida, vitae lobortis libero vulputate. Nunc sit amet vestibulum neque. Sed ultrices nibh ac nibh varius dapibus. Vestibulum auctor blandit velit. Nunc vulputate tincidunt eros, eget porta ante massa nunc.
+## RELEASES
 
-## Feature Number Three
+<table>
+  <tbody><tr>
+    <td width="99999"><a href="#"><img src=".assets/appstore.svg" align="center" width="99999"></a></td>
+    <td width="99999"><a href="#"><img src=".assets/googleplay.svg" align="center" width="99999"></a></td>
+    <td width="99999"><a href="#"><img src=".assets/github.svg" align="center" width="99999"></a></td>
+  </tr></tbody>
+</table>
 
-Donec odio mi, faucibus nec massa eget, tempus mattis lectus. Phasellus auctor dignissim aliquam. Etiam ut lectus ac nibh tincidunt ornare. Sed in velit leo. Nulla dui nulla, convallis quis risus sed, luctus viverra nunc. Praesent molestie.
+## LEARNING
 
-## Debug Android Application
-
-Here is how to open project with Android Studio.
+### DEBUG ANDROID APPLICATION
 
 ```sh
 studio apps/android
 ```
 
-## Debug iOS Application
-
-Here is how to open project with Xcode.
+### DEBUG IOS APPLICATION
 
 ```sh
 xed apps/ios
