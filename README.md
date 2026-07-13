@@ -4,18 +4,18 @@
 </div>
 
 <table>
-  <tbody><tr><td align="center" width="99999"><div>
+  <tbody><tr><td align="center" colspan="3" width="99999"><div>
     <a href="https://olankens.com">WEBSITE</a> ·
     <a href="https://ko-fi.com/olankens">FUNDING</a>
   </div></td></tr></tbody>
-  <tbody><tr><td align="center" width="99999">&nbsp;<div>
+  <tbody><tr><td align="center" colspan="3" width="99999">&nbsp;<div>
     README Markdown templates tailored for maximum compatibility across many software registries like Crates, NPM, Pub, PyPi, and also the Git platforms like Codeberg, Gitee, GitHub, GitLab, and many more.
   </div>&nbsp;</td></tr></tbody>
-  <tbody><tr><td align="center" width="99999">
-    <a href="#"><img src=".assets/playwright.svg" align="center" width="48"></a>
-    <a href="#"><img src=".assets/playwright.svg" align="center" width="48"></a>
-    <a href="#"><img src=".assets/playwright.svg" align="center" width="48"></a>
-  </td></tr></tbody>
+  <tbody><tr>
+    <td align="center" width="999999"><a href="https://en.wikipedia.org/wiki/Bash_(Unix_shell)"><img src=".assets/icon-bash.svg" alt="svg" align="center" width="56"></a></td>
+    <td align="center" width="999999"><a href="https://github.com"><img src=".assets/icon-github.svg" alt="figma" align="center" width="56"></a></td>
+    <td align="center" width="999999"><a href="https://playwright.dev"><img src=".assets/icon-playwright.svg" alt="markdown" align="center" width="56"></a></td>
+  </tr></tbody>
 </table>
 
 ## PREVIEWS
@@ -35,17 +35,13 @@
 
 ## LEARNING
 
-### Create New Template
-
-Just copy the readbase directory.
+### CREATE NEW TEMPLATE
 
 ```sh
 cp -r "source/readbase" "source/<template>"
 ```
 
-### Trigger Template Capture
-
-Run the update workflow manually.
+### TRIGGER TEMPLATE CAPTURE
 
 ```sh
 gh workflow run "op-update-templates.yml"
