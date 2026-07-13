@@ -30,6 +30,7 @@
 <table>
   <tbody><tr><td><a href="source/gymtalog"><img src=".assets/template-gymtalog.png" align="center" width="99999"></a></td><td><a href="source/iconawan"><img src=".assets/template-iconawan.png" align="center" width="99999"></a></td><td><a href="source/javamuse"><img src=".assets/template-javamuse.png" align="center" width="99999"></a></td><td><a href="source/npm"><img src=".assets/template-npm.png" align="center" width="99999"></a></td><td><a href="source/obscured"><img src=".assets/template-obscured.png" align="center" width="99999"></a></td></tr></tbody>
   <tbody><tr><td><a href="source/pub"><img src=".assets/template-pub.png" align="center" width="99999"></a></td><td><a href="source/pypi"><img src=".assets/template-pypi.png" align="center" width="99999"></a></td><td><a href="source/readbase"><img src=".assets/template-readbase.png" align="center" width="99999"></a></td><td><a href="source/senchard"><img src=".assets/template-senchard.png" align="center" width="99999"></a></td><td><a href="source/shihogen"><img src=".assets/template-shihogen.png" align="center" width="99999"></a></td></tr></tbody>
+  <tbody><tr><td><a href="source/shinoman"><img src=".assets/template-shinoman.png" align="center" width="99999"></a></td></tr></tbody>
 </table>
 <!-- CEASE_BLOCK -->
 
