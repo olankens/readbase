@@ -11,11 +11,13 @@
   <tbody><tr><td align="center" colspan="3" width="99999">&nbsp;<div>
     README Markdown templates tailored for maximum compatibility across many software registries like Crates, NPM, Pub, PyPi, and also the Git platforms like Codeberg, Gitee, GitHub, GitLab, and many more.
   </div>&nbsp;</td></tr></tbody>
-  <tbody><tr>
-    <td align="center" width="999999"><a href="https://en.wikipedia.org/wiki/Bash_(Unix_shell)"><img src=".assets/icon-bash.svg" alt="svg" align="center" width="56"></a></td>
-    <td align="center" width="999999"><a href="https://github.com"><img src=".assets/icon-github.svg" alt="figma" align="center" width="56"></a></td>
-    <td align="center" width="999999"><a href="https://playwright.dev"><img src=".assets/icon-playwright.svg" alt="markdown" align="center" width="56"></a></td>
-  </tr></tbody>
+  <tbody><tr><td align="center" width="99999">
+    <a href="https://wikipedia.org/wiki/Bash_(Unix_shell)"><img src=".assets/icon-bash.svg" align="center" width="56"></a>
+    <picture><img src=".assets/divider.gif" align="center" height="40" width="1"/></picture>
+    <a href="https://github.com"><img src=".assets/icon-github.svg" align="center" width="56"></a>
+    <picture><img src=".assets/divider.gif" align="center" height="40" width="1"/></picture>
+    <a href="https://playwright.dev"><img src=".assets/icon-playwright.svg" align="center" width="56"></a>
+  </td></tr></tbody>
 </table>
 
 ## PREVIEWS
