@@ -1,6 +1,6 @@
 <div align="center">
   <p><img src=".assets/icon.avif" align="center" width="112"></p>
-  <h1>PUB</h1>
+  <h1><code>PUB</code></h1>
 </div>
 
 <table>
